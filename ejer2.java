@@ -8,7 +8,7 @@ public class ejer2 {
    String lineaNumeros = scanner.nextLine();
    Scanner numerosScanner = new Scanner(lineaNumeros);
    while (numerosScanner.hasNextInt()) {
-     int condicion = 0;
+     int noesprimo = 0;
      int numero = numerosScanner.nextInt();
      if (numero > 50 || numero < 0 ) {
        System.out.println("Ingrese numeros que no sean mayores de 50 ");
@@ -18,15 +18,15 @@ public class ejer2 {
     
        for (int x = numero - 1 ; x > 1; x--) {
          if (numero % x == 0 ) {
-           condicion = 1;
+           noesprimo = 1;
            System.out.printf("%d ", x);
            
          }
        } 
        
 
-     if(condicion == 0) {
-       System.out.println("primo:" + numero);
+     if(noesprimo == 0) {
+       System.out.println("Primo:" + numero);
      } else {
        System.out.printf("\n");
      }
