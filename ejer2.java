@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ejercicio2 {
+public class ejer2 {
 
  public static void main(String[] args) {
    System.out.println("Ingrese numeros del 1 al 50 (ambos incluidos) separados por un espacio.");
