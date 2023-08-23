@@ -18,7 +18,7 @@ public class ejer2 {
     
        for (int x = numero - 1 ; x > 1; x--) {
          if (numero % x == 0 ) {
-           if(numero != x && x != 1) condicion = 1;
+           condicion = 1;
            System.out.printf("%d ", x);
            
          }
