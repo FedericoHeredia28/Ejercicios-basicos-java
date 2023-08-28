@@ -10,7 +10,7 @@ public class ejer2 {
    while (numerosScanner.hasNextInt()) {
      int noesprimo = 0;
      int numero = numerosScanner.nextInt();
-     if (numero > 50 || numero < 0 ) {
+     if (numero > 100 || numero < 50 ) {
        System.out.println("Ingrese numeros que no sean mayores de 50 ");
        return;
      }
