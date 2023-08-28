@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ejer2 {
 
  public static void main(String[] args) {
-   System.out.println("Ingrese numeros del 1 al 50 (ambos incluidos) separados por un espacio.");
+   System.out.println("Ingrese numeros del 50 al 100 (ambos incluidos) separados por un espacio.");
    Scanner scanner = new Scanner(System.in);
    String lineaNumeros = scanner.nextLine();
    Scanner numerosScanner = new Scanner(lineaNumeros);
@@ -11,7 +11,7 @@ public class ejer2 {
      int noesprimo = 0;
      int numero = numerosScanner.nextInt();
      if (numero > 100 || numero < 50 ) {
-       System.out.println("Ingrese numeros que no sean mayores de 50 ");
+       System.out.println("Ingrese numeros que no sean menores de 50 y que no sean mayores a 100");
        return;
      }
      
